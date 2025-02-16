@@ -1,6 +1,7 @@
+name: "Check Links with LinkSpector Manually"
+run-name: "@${{ github.actor }} started Links Checking process "
 on:
   workflow_dispatch:
-  run-name: "@${{ github.actor }} started Links Checking process "
 jobs:
   check_links_with_linkSpector_manually:
     name: runner / linkspector
