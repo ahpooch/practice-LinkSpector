@@ -11,6 +11,6 @@ jobs:
         uses: umbrelladocs/action-linkspector@v1
         with:
           github_token: ${{ secrets.github_token }}
-          config_file: ${GITHUB_WORKSPACE}/.github/workflows/.linkspector.yml
+          config_file: ${GITHUB_WORKSPACE}/.github/LinkSpector_Configuration/.linkspector.yml
           reporter: github-check
           fail_level: any
