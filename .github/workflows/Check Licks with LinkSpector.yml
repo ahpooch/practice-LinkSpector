@@ -1,0 +1,27 @@
+name: "Check Links with LinkSpector"
+run-name: "@${{ github.actor }} started Links Checking process "
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'README.md'
+  pull_request:
+    types: 
+      - opened
+      - synchronize
+      - reopened
+    paths:
+      - 'README.md'
+jobs:
+  check_links_with_linkSpector_manually:
+    name: runner / linkspector
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run linkspector
+        uses: umbrelladocs/action-linkspector@v1
+        with:
+          github_token: ${{ secrets.github_token }}
+          reporter: github-check
+          fail_level: any
