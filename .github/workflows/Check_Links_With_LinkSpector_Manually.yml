@@ -2,7 +2,6 @@ on:
   workflow_dispatch:
 jobs:
   check_links_with_linkSpector_manually:
-    if: github.repository == 'ahpooch/practice-LinkSpecter'
     name: runner / linkspector
     runs-on: ubuntu-latest
     steps:
