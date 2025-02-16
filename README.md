@@ -314,3 +314,6 @@ It includes a command-line shell and an associated scripting language.
 * [PoShKeePass](https://github.com/PSKeePass/PoShKeePass) - Module for working with [KeePass](https://keepass.info) databases.
 * [Explore PowerShell](https://kandi.openweaver.com/explore/powershell) - Discover & find a curated list of popular & new PowerShell libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi.
 </details>
+
+Last manual links check: 17.02.2025 2:40
+(by updating this date in a fresh commit and starting [Links verification](https://github.com/ahpooch/practice-LinkSpector/actions/workflows/Check_Licks_with_LinkSpector.yml) workflow)
