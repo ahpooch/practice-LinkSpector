@@ -1,12 +1,8 @@
+name: "Check Links with LinkSpector Manually"
+run-name: "@${{ github.actor }} started Links Checking process "
 on:
   workflow_dispatch:
-    #types: [adsf]
 jobs:
-#   get-event_name-and-event_type:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - run: echo "event name is:" ${{ github.event_name }} 
-#       - run: echo "event type is:" ${{ github.event.action }} 
   check_links_with_linkSpector_manually:
     name: runner / linkspector
     runs-on: ubuntu-latest
@@ -16,8 +12,6 @@ jobs:
         uses: umbrelladocs/action-linkspector@v1
         with:
           github_token: ${{ secrets.github_token }}
+          config_file: ${GITHUB_WORKSPACE}/.github/LinkSpector_Configuration/.linkspector.yml
           reporter: github-check
-          #reporter: github-pr-review
           fail_level: any
-
-          
