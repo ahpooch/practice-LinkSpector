@@ -2,6 +2,7 @@ on:
   workflow_dispatch:
 jobs:
   check_links_with_linkSpector_manually:
+    if: github.repository == 'ahpooch/practice-LinkSpecter'
     name: runner / linkspector
     runs-on: ubuntu-latest
     steps:
@@ -10,7 +11,6 @@ jobs:
         uses: umbrelladocs/action-linkspector@v1
         with:
           github_token: ${{ secrets.github_token }}
+          config_file: ${GITHUB_WORKSPACE}/.github/workflows/.linkspector.yml
           reporter: github-check
           fail_level: any
-
-          
