@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+    #types: [adsf]
+jobs:
+  check_links_with_linkSpector_manually:
+    runs-on: ["ubuntu-latest"]
+    steps:
+      - run: echo "event name is:" ${{ github.event_name }} 
+      - run: echo "event type is:" ${{ github.event.action }} 
