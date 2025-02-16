@@ -1,5 +1,5 @@
-name: "Check Links with LinkSpector"
-run-name: "Links Checking process coused by @${{ github.actor }}"
+name: "Links verification"
+run-name: "Links verification process coused by @${{ github.actor }}"
 
 on:
   push:
