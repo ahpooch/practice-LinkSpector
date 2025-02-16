@@ -11,6 +11,7 @@ It includes a command-line shell and an associated scripting language.
 🧟☠️☠️☠️ [IntentionallyBrockenLink](https://IntentionallyBrockenLink.ibl/)
 🧟☠️☠️☠️ [IntentionallyBrockenLink2](https://IntentionallyBrockenLink2.ibl/)
 🧟☠️☠️☠️ [IntentionallyBrockenLink3](https://IntentionallyBrockenLink3.ibl/)
+🧟☠️☠️☠️ [IntentionallyBrockenLink4](https://IntentionallyBrockenLink4.ibl/)
 
 ## Contents (unfoldable)
 <details>

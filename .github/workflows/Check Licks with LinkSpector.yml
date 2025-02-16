@@ -32,5 +32,7 @@ jobs:
         uses: umbrelladocs/action-linkspector@v1
         with:
           github_token: ${{ secrets.github_token }}
+          config_file: .github/LinkSpector_Configuration/.linkspector.yml
           reporter: github-check
+          filter_mode: nofilter
           fail_level: any
