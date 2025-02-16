@@ -8,6 +8,8 @@
 >PowerShell is a cross-platform (Windows, Linux, and macOS) automation and configuration tool that is optimized for dealing with structured data (e.g. JSON, CSV, XML, etc.), REST APIs, and object models.
 It includes a command-line shell and an associated scripting language.
 
+🧟☠️☠️☠️ [IntentionallyBrockenLink](https://IntentionallyBrockenLink.ibl/)
+
 ## Contents (unfoldable)
 <details>
   <summary>API Wrappers</summary>
