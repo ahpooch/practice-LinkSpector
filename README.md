@@ -315,5 +315,4 @@ It includes a command-line shell and an associated scripting language.
 * [Explore PowerShell](https://kandi.openweaver.com/explore/powershell) - Discover & find a curated list of popular & new PowerShell libraries, top authors, trending project kits, discussions, tutorials & learning resources on kandi.
 </details>
 
-Last manual links check: 17.02.2025 2:40
-(by updating this date in a fresh commit and starting [Links verification](https://github.com/ahpooch/practice-LinkSpector/actions/workflows/Check_Licks_with_LinkSpector.yml) workflow)
+![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fahpooch%2Fpractice-LinkSpector%2Factions%2Fworkflows%2F144514862%2Fruns%3Fstatus%3Dcompleted%26per_page%3D1&query=%24.workflow_runs%5B0%5D.updated_at&label=Links%20verified%20at&labelColor=green)
